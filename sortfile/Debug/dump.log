@@ -1,0 +1,1443 @@
+|/**************************NEW SORT**************************/
+|/*******************sort_start******************\
+
+|| : 1
+	 I:0x7B13B8   prev:0x     0    next:0x7B0E08 
+|| : 6
+	 I:0x7B0F98   prev:0x7B0F70    next:0x     0 
+|LIST DUMP
+
+|| : 1
+	 I:0x7B13B8   prev:0x     0    next:0x7B0E08 
+|| : 2
+	 I:0x7B0E08   prev:0x7B13B8    next:0x7B0E30 
+|| : 3
+	 I:0x7B0E30   prev:0x7B0E08    next:0x7B0E58 
+|| : 
+	 I:0x7B0E58   prev:0x7B0E30    next:0x7B0E80 
+|| : 4
+	 I:0x7B0E80   prev:0x7B0E58    next:0x7B0EA8 
+|| : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0ED0 
+|| : 5
+	 I:0x7B0ED0   prev:0x7B0EA8    next:0x7B0EF8 
+|| : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0F20 
+|| : 
+	 I:0x7B0F20   prev:0x7B0EF8    next:0x7B0F48 
+|| : 6
+	 I:0x7B0F48   prev:0x7B0F20    next:0x7B0F70 
+|| : 
+	 I:0x7B0F70   prev:0x7B0F48    next:0x7B0F98 
+|| : 6
+	 I:0x7B0F98   prev:0x7B0F70    next:0x     0 
+|DUMP END
+
+|5
+|middle:
+|5
+|change
+|a, b:
+|| : 1
+	 I:0x7B13B8   prev:0x     0    next:0x7B0E08 
+|| : 6
+	 I:0x7B0F98   prev:0x7B0F70    next:0x     0 
+|| : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+|| : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0E08 
+|change_end
+
+|change
+|a, b:
+|| : 2
+	 I:0x7B0E08   prev:0x7B0F98    next:0x7B0E30 
+|| : 6
+	 I:0x7B0F48   prev:0x7B0F20    next:0x7B0F70 
+|| : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+|| : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0E30 
+|change_end
+
+|change
+|a, b:
+|| : 3
+	 I:0x7B0E30   prev:0x7B0F48    next:0x7B0E58 
+|| : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0F20 
+|| : 3
+	 I:0x7B0E30   prev:0x7B0ED0    next:0x7B0F20 
+|| : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0E58 
+|change_end
+
+|change
+|a, b:
+|| : 
+	 I:0x7B0E58   prev:0x7B0EF8    next:0x7B0E80 
+|| : 5
+	 I:0x7B0ED0   prev:0x7B0EA8    next:0x7B0E30 
+|| : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+|| : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+|change_end
+
+|LIST DUMP
+
+|| : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+|| : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0EF8 
+|| : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+|| : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+|| : 4
+	 I:0x7B0E80   prev:0x7B0ED0    next:0x7B0EA8 
+|| : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+|| : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+|| : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+|| : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+|| : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+|| : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+|| : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+|DUMP END
+
+|left, right
+|| : 4
+	 I:0x7B0E80   prev:0x7B0ED0    next:0x7B0EA8 
+|| : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+    |sort1
+
+    |/*******************sort_start******************\
+
+    |    | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+    |    | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+    |LIST DUMP
+
+    |    | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+    |    | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0EF8 
+    |    | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+    |    | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+    |    | : 4
+	 I:0x7B0E80   prev:0x7B0ED0    next:0x7B0EA8 
+    |    | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+    |    | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+    |    | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+    |    | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+    |    | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+    |    | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+    |    | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+    |DUMP END
+
+    |5
+    |middle:
+    |5
+    |change
+    |a, b:
+    |    | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+    |    | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+    |    | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+    |    | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+    |change_end
+
+    |LIST DUMP
+
+    |    | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+    |    | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0ED0 
+    |    | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+    |    | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+    |    | : 4
+	 I:0x7B0E80   prev:0x7B0EF8    next:0x7B0EA8 
+    |    | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+    |    | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+    |    | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+    |    | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+    |    | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+    |    | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+    |    | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+    |DUMP END
+
+    |left, right
+    |    | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+    |    | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+        |sort1
+
+        |/*******************sort_start******************\
+
+        |        | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+        |        | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+        |LIST DUMP
+
+        |        | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+        |        | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0ED0 
+        |        | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+        |        | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+        |        | : 4
+	 I:0x7B0E80   prev:0x7B0EF8    next:0x7B0EA8 
+        |        | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+        |        | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+        |        | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+        |        | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+        |        | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+        |        | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+        |        | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+        |DUMP END
+
+        |5
+        |middle:
+        |5
+        |change
+        |a, b:
+        |        | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+        |        | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+        |        | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+        |        | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+        |change_end
+
+        |LIST DUMP
+
+        |        | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+        |        | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0EF8 
+        |        | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+        |        | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+        |        | : 4
+	 I:0x7B0E80   prev:0x7B0ED0    next:0x7B0EA8 
+        |        | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+        |        | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+        |        | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+        |        | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+        |        | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+        |        | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+        |        | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+        |DUMP END
+
+        |left, right
+        |        | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+        |        | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+            |sort1
+
+            |/*******************sort_start******************\
+
+            |            | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+            |            | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+            |LIST DUMP
+
+            |            | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+            |            | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0EF8 
+            |            | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+            |            | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+            |            | : 4
+	 I:0x7B0E80   prev:0x7B0ED0    next:0x7B0EA8 
+            |            | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+            |            | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+            |            | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+            |            | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+            |            | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+            |            | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+            |            | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+            |DUMP END
+
+            |5
+            |middle:
+            |5
+            |change
+            |a, b:
+            |            | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+            |            | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+            |            | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+            |            | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+            |change_end
+
+            |LIST DUMP
+
+            |            | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+            |            | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0ED0 
+            |            | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+            |            | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+            |            | : 4
+	 I:0x7B0E80   prev:0x7B0EF8    next:0x7B0EA8 
+            |            | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+            |            | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+            |            | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+            |            | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+            |            | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+            |            | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+            |            | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+            |DUMP END
+
+            |left, right
+            |            | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+            |            | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                |sort1
+
+                |/*******************sort_start******************\
+
+                |                | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                |                | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                |LIST DUMP
+
+                |                | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                |                | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0ED0 
+                |                | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                |                | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                |                | : 4
+	 I:0x7B0E80   prev:0x7B0EF8    next:0x7B0EA8 
+                |                | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                |                | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                |                | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                |                | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                |                | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                |                | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                |                | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                |DUMP END
+
+                |5
+                |middle:
+                |5
+                |change
+                |a, b:
+                |                | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                |                | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                |                | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                |                | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                |change_end
+
+                |LIST DUMP
+
+                |                | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                |                | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0EF8 
+                |                | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                |                | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                |                | : 4
+	 I:0x7B0E80   prev:0x7B0ED0    next:0x7B0EA8 
+                |                | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                |                | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                |                | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                |                | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                |                | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                |                | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                |                | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                |DUMP END
+
+                |left, right
+                |                | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                |                | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                    |sort1
+
+                    |/*******************sort_start******************\
+
+                    |                    | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                    |                    | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                    |LIST DUMP
+
+                    |                    | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                    |                    | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0EF8 
+                    |                    | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                    |                    | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                    |                    | : 4
+	 I:0x7B0E80   prev:0x7B0ED0    next:0x7B0EA8 
+                    |                    | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                    |                    | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                    |                    | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                    |                    | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                    |                    | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                    |                    | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                    |                    | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                    |DUMP END
+
+                    |5
+                    |middle:
+                    |5
+                    |change
+                    |a, b:
+                    |                    | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                    |                    | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                    |                    | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                    |                    | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                    |change_end
+
+                    |LIST DUMP
+
+                    |                    | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                    |                    | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0ED0 
+                    |                    | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                    |                    | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                    |                    | : 4
+	 I:0x7B0E80   prev:0x7B0EF8    next:0x7B0EA8 
+                    |                    | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                    |                    | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                    |                    | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                    |                    | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                    |                    | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                    |                    | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                    |                    | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                    |DUMP END
+
+                    |left, right
+                    |                    | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                    |                    | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                        |sort1
+
+                        |/*******************sort_start******************\
+
+                        |                        | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                        |                        | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                        |LIST DUMP
+
+                        |                        | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                        |                        | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0ED0 
+                        |                        | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                        |                        | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                        |                        | : 4
+	 I:0x7B0E80   prev:0x7B0EF8    next:0x7B0EA8 
+                        |                        | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                        |                        | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                        |                        | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                        |                        | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                        |                        | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                        |                        | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                        |                        | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                        |DUMP END
+
+                        |5
+                        |middle:
+                        |5
+                        |change
+                        |a, b:
+                        |                        | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                        |                        | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                        |                        | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                        |                        | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                        |change_end
+
+                        |LIST DUMP
+
+                        |                        | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                        |                        | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0EF8 
+                        |                        | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                        |                        | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                        |                        | : 4
+	 I:0x7B0E80   prev:0x7B0ED0    next:0x7B0EA8 
+                        |                        | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                        |                        | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                        |                        | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                        |                        | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                        |                        | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                        |                        | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                        |                        | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                        |DUMP END
+
+                        |left, right
+                        |                        | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                        |                        | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                            |sort1
+
+                            |/*******************sort_start******************\
+
+                            |                            | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                            |                            | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                            |LIST DUMP
+
+                            |                            | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                            |                            | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0EF8 
+                            |                            | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                            |                            | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                            |                            | : 4
+	 I:0x7B0E80   prev:0x7B0ED0    next:0x7B0EA8 
+                            |                            | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                            |                            | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                            |                            | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                            |                            | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                            |                            | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                            |                            | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                            |                            | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                            |DUMP END
+
+                            |5
+                            |middle:
+                            |5
+                            |change
+                            |a, b:
+                            |                            | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                            |                            | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                            |                            | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                            |                            | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                            |change_end
+
+                            |LIST DUMP
+
+                            |                            | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                            |                            | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0ED0 
+                            |                            | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                            |                            | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                            |                            | : 4
+	 I:0x7B0E80   prev:0x7B0EF8    next:0x7B0EA8 
+                            |                            | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                            |                            | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                            |                            | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                            |                            | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                            |                            | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                            |                            | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                            |                            | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                            |DUMP END
+
+                            |left, right
+                            |                            | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                            |                            | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                |sort1
+
+                                |/*******************sort_start******************\
+
+                                |                                | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                |                                | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                |LIST DUMP
+
+                                |                                | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                |                                | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0ED0 
+                                |                                | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                |                                | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                |                                | : 4
+	 I:0x7B0E80   prev:0x7B0EF8    next:0x7B0EA8 
+                                |                                | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                                |                                | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                                |                                | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                                |                                | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                                |                                | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                                |                                | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                                |                                | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                                |DUMP END
+
+                                |5
+                                |middle:
+                                |5
+                                |change
+                                |a, b:
+                                |                                | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                |                                | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                |                                | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                |                                | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                |change_end
+
+                                |LIST DUMP
+
+                                |                                | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                |                                | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0EF8 
+                                |                                | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                |                                | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                |                                | : 4
+	 I:0x7B0E80   prev:0x7B0ED0    next:0x7B0EA8 
+                                |                                | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                                |                                | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                                |                                | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                                |                                | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                                |                                | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                                |                                | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                                |                                | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                                |DUMP END
+
+                                |left, right
+                                |                                | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                |                                | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                    |sort1
+
+                                    |/*******************sort_start******************\
+
+                                    |                                    | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                    |                                    | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                    |LIST DUMP
+
+                                    |                                    | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                    |                                    | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0EF8 
+                                    |                                    | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                    |                                    | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                    |                                    | : 4
+	 I:0x7B0E80   prev:0x7B0ED0    next:0x7B0EA8 
+                                    |                                    | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                                    |                                    | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                                    |                                    | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                                    |                                    | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                                    |                                    | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                                    |                                    | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                                    |                                    | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                                    |DUMP END
+
+                                    |5
+                                    |middle:
+                                    |5
+                                    |change
+                                    |a, b:
+                                    |                                    | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                    |                                    | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                    |                                    | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                    |                                    | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                    |change_end
+
+                                    |LIST DUMP
+
+                                    |                                    | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                    |                                    | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0ED0 
+                                    |                                    | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                    |                                    | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                    |                                    | : 4
+	 I:0x7B0E80   prev:0x7B0EF8    next:0x7B0EA8 
+                                    |                                    | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                                    |                                    | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                                    |                                    | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                                    |                                    | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                                    |                                    | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                                    |                                    | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                                    |                                    | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                                    |DUMP END
+
+                                    |left, right
+                                    |                                    | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                    |                                    | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                        |sort1
+
+                                        |/*******************sort_start******************\
+
+                                        |                                        | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                        |                                        | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                        |LIST DUMP
+
+                                        |                                        | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                        |                                        | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0ED0 
+                                        |                                        | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                        |                                        | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                        |                                        | : 4
+	 I:0x7B0E80   prev:0x7B0EF8    next:0x7B0EA8 
+                                        |                                        | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                                        |                                        | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                                        |                                        | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                                        |                                        | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                                        |                                        | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                                        |                                        | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                                        |                                        | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                                        |DUMP END
+
+                                        |5
+                                        |middle:
+                                        |5
+                                        |change
+                                        |a, b:
+                                        |                                        | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                        |                                        | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                        |                                        | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                        |                                        | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                        |change_end
+
+                                        |LIST DUMP
+
+                                        |                                        | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                        |                                        | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0EF8 
+                                        |                                        | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                        |                                        | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                        |                                        | : 4
+	 I:0x7B0E80   prev:0x7B0ED0    next:0x7B0EA8 
+                                        |                                        | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                                        |                                        | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                                        |                                        | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                                        |                                        | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                                        |                                        | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                                        |                                        | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                                        |                                        | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                                        |DUMP END
+
+                                        |left, right
+                                        |                                        | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                        |                                        | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                            |sort1
+
+                                            |/*******************sort_start******************\
+
+                                            |                                            | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                            |                                            | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                            |LIST DUMP
+
+                                            |                                            | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                            |                                            | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0EF8 
+                                            |                                            | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                            |                                            | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                            |                                            | : 4
+	 I:0x7B0E80   prev:0x7B0ED0    next:0x7B0EA8 
+                                            |                                            | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                                            |                                            | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                                            |                                            | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                                            |                                            | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                                            |                                            | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                                            |                                            | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                                            |                                            | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                                            |DUMP END
+
+                                            |5
+                                            |middle:
+                                            |5
+                                            |change
+                                            |a, b:
+                                            |                                            | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                            |                                            | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                            |                                            | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                            |                                            | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                            |change_end
+
+                                            |LIST DUMP
+
+                                            |                                            | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                            |                                            | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0ED0 
+                                            |                                            | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                            |                                            | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                            |                                            | : 4
+	 I:0x7B0E80   prev:0x7B0EF8    next:0x7B0EA8 
+                                            |                                            | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                                            |                                            | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                                            |                                            | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                                            |                                            | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                                            |                                            | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                                            |                                            | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                                            |                                            | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                                            |DUMP END
+
+                                            |left, right
+                                            |                                            | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                            |                                            | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                                |sort1
+
+                                                |/*******************sort_start******************\
+
+                                                |                                                | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                                |                                                | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                                |LIST DUMP
+
+                                                |                                                | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                                |                                                | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0ED0 
+                                                |                                                | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                                |                                                | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                                |                                                | : 4
+	 I:0x7B0E80   prev:0x7B0EF8    next:0x7B0EA8 
+                                                |                                                | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                                                |                                                | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                                                |                                                | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                                                |                                                | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                                                |                                                | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                                                |                                                | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                                                |                                                | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                                                |DUMP END
+
+                                                |5
+                                                |middle:
+                                                |5
+                                                |change
+                                                |a, b:
+                                                |                                                | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                                |                                                | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                                |                                                | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                                |                                                | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                                |change_end
+
+                                                |LIST DUMP
+
+                                                |                                                | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                                |                                                | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0EF8 
+                                                |                                                | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                                |                                                | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                                |                                                | : 4
+	 I:0x7B0E80   prev:0x7B0ED0    next:0x7B0EA8 
+                                                |                                                | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                                                |                                                | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                                                |                                                | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                                                |                                                | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                                                |                                                | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                                                |                                                | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                                                |                                                | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                                                |DUMP END
+
+                                                |left, right
+                                                |                                                | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                                |                                                | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                                    |sort1
+
+                                                    |/*******************sort_start******************\
+
+                                                    |                                                    | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                                    |                                                    | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                                    |LIST DUMP
+
+                                                    |                                                    | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                                    |                                                    | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0EF8 
+                                                    |                                                    | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                                    |                                                    | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                                    |                                                    | : 4
+	 I:0x7B0E80   prev:0x7B0ED0    next:0x7B0EA8 
+                                                    |                                                    | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                                                    |                                                    | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                                                    |                                                    | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                                                    |                                                    | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                                                    |                                                    | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                                                    |                                                    | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                                                    |                                                    | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                                                    |DUMP END
+
+                                                    |5
+                                                    |middle:
+                                                    |5
+                                                    |change
+                                                    |a, b:
+                                                    |                                                    | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                                    |                                                    | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                                    |                                                    | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                                    |                                                    | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                                    |change_end
+
+                                                    |LIST DUMP
+
+                                                    |                                                    | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                                    |                                                    | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0ED0 
+                                                    |                                                    | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                                    |                                                    | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                                    |                                                    | : 4
+	 I:0x7B0E80   prev:0x7B0EF8    next:0x7B0EA8 
+                                                    |                                                    | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                                                    |                                                    | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                                                    |                                                    | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                                                    |                                                    | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                                                    |                                                    | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                                                    |                                                    | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                                                    |                                                    | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                                                    |DUMP END
+
+                                                    |left, right
+                                                    |                                                    | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                                    |                                                    | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                                        |sort1
+
+                                                        |/*******************sort_start******************\
+
+                                                        |                                                        | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                                        |                                                        | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                                        |LIST DUMP
+
+                                                        |                                                        | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                                        |                                                        | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0ED0 
+                                                        |                                                        | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                                        |                                                        | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                                        |                                                        | : 4
+	 I:0x7B0E80   prev:0x7B0EF8    next:0x7B0EA8 
+                                                        |                                                        | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                                                        |                                                        | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                                                        |                                                        | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                                                        |                                                        | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                                                        |                                                        | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                                                        |                                                        | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                                                        |                                                        | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                                                        |DUMP END
+
+                                                        |5
+                                                        |middle:
+                                                        |5
+                                                        |change
+                                                        |a, b:
+                                                        |                                                        | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                                        |                                                        | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                                        |                                                        | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                                        |                                                        | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                                        |change_end
+
+                                                        |LIST DUMP
+
+                                                        |                                                        | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                                        |                                                        | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0EF8 
+                                                        |                                                        | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                                        |                                                        | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                                        |                                                        | : 4
+	 I:0x7B0E80   prev:0x7B0ED0    next:0x7B0EA8 
+                                                        |                                                        | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                                                        |                                                        | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                                                        |                                                        | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                                                        |                                                        | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                                                        |                                                        | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                                                        |                                                        | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                                                        |                                                        | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                                                        |DUMP END
+
+                                                        |left, right
+                                                        |                                                        | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                                        |                                                        | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                                            |sort1
+
+                                                            |/*******************sort_start******************\
+
+                                                            |                                                            | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                                            |                                                            | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                                            |LIST DUMP
+
+                                                            |                                                            | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                                            |                                                            | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0EF8 
+                                                            |                                                            | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                                            |                                                            | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                                            |                                                            | : 4
+	 I:0x7B0E80   prev:0x7B0ED0    next:0x7B0EA8 
+                                                            |                                                            | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                                                            |                                                            | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                                                            |                                                            | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                                                            |                                                            | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                                                            |                                                            | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                                                            |                                                            | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                                                            |                                                            | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                                                            |DUMP END
+
+                                                            |5
+                                                            |middle:
+                                                            |5
+                                                            |change
+                                                            |a, b:
+                                                            |                                                            | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                                            |                                                            | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                                            |                                                            | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                                            |                                                            | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                                            |change_end
+
+                                                            |LIST DUMP
+
+                                                            |                                                            | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                                            |                                                            | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0ED0 
+                                                            |                                                            | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                                            |                                                            | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                                            |                                                            | : 4
+	 I:0x7B0E80   prev:0x7B0EF8    next:0x7B0EA8 
+                                                            |                                                            | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                                                            |                                                            | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                                                            |                                                            | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                                                            |                                                            | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                                                            |                                                            | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                                                            |                                                            | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                                                            |                                                            | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                                                            |DUMP END
+
+                                                            |left, right
+                                                            |                                                            | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                                            |                                                            | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                                                |sort1
+
+                                                                |/*******************sort_start******************\
+
+                                                                |                                                                | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                                                |                                                                | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                                                |LIST DUMP
+
+                                                                |                                                                | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                                                |                                                                | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0ED0 
+                                                                |                                                                | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                                                |                                                                | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                                                |                                                                | : 4
+	 I:0x7B0E80   prev:0x7B0EF8    next:0x7B0EA8 
+                                                                |                                                                | : 
+	 I:0x7B0EA8   prev:0x7B0E80    next:0x7B0E58 
+                                                                |                                                                | : 
+	 I:0x7B0E58   prev:0x7B0EA8    next:0x7B0E30 
+                                                                |                                                                | : 3
+	 I:0x7B0E30   prev:0x7B0E58    next:0x7B0F20 
+                                                                |                                                                | : 
+	 I:0x7B0F20   prev:0x7B0E30    next:0x7B0E08 
+                                                                |                                                                | : 2
+	 I:0x7B0E08   prev:0x7B0F20    next:0x7B0F70 
+                                                                |                                                                | : 
+	 I:0x7B0F70   prev:0x7B0E08    next:0x7B13B8 
+                                                                |                                                                | : 1
+	 I:0x7B13B8   prev:0x7B0F70    next:0x     0 
+                                                                |DUMP END
+
+                                                                |5
+                                                                |middle:
+                                                                |5
+                                                                |change
+                                                                |a, b:
+                                                                |                                                                | : 5
+	 I:0x7B0ED0   prev:0x7B0F48    next:0x7B0EF8 
+                                                                |                                                                | : 5
+	 I:0x7B0EF8   prev:0x7B0ED0    next:0x7B0E80 
+                                                                |                                                                | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                                                |                                                                | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                                                |change_end
+
+                                                                |LIST DUMP
+
+                                                                |                                                                | : 6
+	 I:0x7B0F98   prev:0x     0    next:0x7B0F48 
+                                                                |                                                                | : 6
+	 I:0x7B0F48   prev:0x7B0F98    next:0x7B0EF8 
+                                                                |                                                                | : 5
+	 I:0x7B0EF8   prev:0x7B0F48    next:0x7B0ED0 
+                                                                |                                                                | : 5
+	 I:0x7B0ED0   prev:0x7B0EF8    next:0x7B0E80 
+                                                                |                                                                | : 4
+	 I:0x7B0E80   prev:0x7B0ED0    next:0x7B0EA8 
+                                                                |                                                                |

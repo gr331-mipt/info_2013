@@ -1,0 +1,18 @@
+01:16:44 **** Rebuild of configuration Debug for project cables ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:11:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%d %d", &n, &k);
+  ^
+..\main.c:11:2: warning: incompatible implicit declaration of built-in function 'scanf' [enabled by default]
+..\main.c:15:3: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'long int *' [-Wformat=]
+   scanf("%d", &c);
+   ^
+..\main.c:9:6: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+  int a[100][2];
+      ^
+gcc -o cables.exe main.o 
+
+01:16:44 Build Finished (took 412ms)
+

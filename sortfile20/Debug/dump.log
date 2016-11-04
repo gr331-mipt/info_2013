@@ -1,0 +1,355 @@
+|***********************NEW SORT***************************
+|L:
+|LIST DUMP
+
+|| : 1
+	 I:0x3C0E18   prev:0x     0    next:0x     0 
+|DUMP END
+
+|R:
+|LIST DUMP
+
+|| : 2
+	 I:0x3C0E40   prev:0x     0    next:0x     0 
+|DUMP END
+
+|LIST DUMP
+
+|| : 2
+	 I:0x3C0E40   prev:0x     0    next:0x3C0E18 
+|| : 1
+	 I:0x3C0E18   prev:0x3C0E40    next:0x     0 
+|DUMP END
+
+|L:
+|LIST DUMP
+
+|| : 3
+	 I:0x3C0E68   prev:0x     0    next:0x     0 
+|DUMP END
+
+|R:
+|LIST DUMP
+
+|***********************NEW SORT***************************
+|L:
+|LIST DUMP
+
+|| : 1
+	 I:0x740E18   prev:0x     0    next:0x740E40 
+|| : 2
+	 I:0x740E40   prev:0x740E18    next:0x     0 
+|DUMP END
+
+|R:
+|LIST DUMP
+
+|***********************NEW SORT***************************
+|L:
+|| : 1
+	 I:0x530E18   prev:0x     0    next:0x530E40 
+|R:
+|***********************NEW SORT***************************
+|L:
+|| : 1
+	 I:0x6F0E18   prev:0x     0    next:0x6F0E40 
+|R:
+|| : 3
+	 I:0x6F0E68   prev:0x6F0E40    next:0x     0 
+|L:
+|| : 1
+	 I:0x6F0E18   prev:0x     0    next:0x6F0E40 
+|R:
+|***********************NEW SORT***************************
+|L:
+|| : 1
+	 I:0x2D0E18   prev:0x     0    next:0x2D0E40 
+|R:
+|| : 3
+	 I:0x2D0E68   prev:0x2D0E40    next:0x     0 
+|L:
+|| : 1
+	 I:0x2D0E18   prev:0x     0    next:0x2D0E40 
+|R:
+|***********************NEW SORT***************************
+|L:
+|| : 1
+	 I:0x760E18   prev:0x     0    next:0x760E40 
+|R:
+|| : 3
+	 I:0x760E68   prev:0x760E40    next:0x     0 
+|L:
+|| : 1
+	 I:0x760E18   prev:0x     0    next:0x760E40 
+|R:
+|***********************NEW SORT***************************
+|L:
+|| : 1
+	 I:0x580E18   prev:0x     0    next:0x580E40 
+|R:
+|| : 3
+	 I:0x580E68   prev:0x580E40    next:0x     0 
+|L:
+|| : 1
+	 I:0x580E18   prev:0x     0    next:0x580E40 
+|R:
+|***********************NEW SORT***************************
+|L:
+|| : 1
+	 I:0x6F0E18   prev:0x     0    next:0x6F0E40 
+|R:
+|| : 3
+	 I:0x6F0E68   prev:0x6F0E40    next:0x     0 
+|L:
+|| : 1
+	 I:0x6F0E18   prev:0x     0    next:0x6F0E40 
+|R:
+|***********************NEW SORT***************************
+|L:
+|| : 1
+	 I:0x350E38   prev:0x     0    next:0x350E60 
+|R:
+|***********************NEW SORT***************************
+|L:
+|| : 1
+	 I:0x370E18   prev:0x     0    next:0x370E40 
+|R:
+|***********************NEW SORT***************************
+|L:
+|| : 1
+	 I:0x 30E18   prev:0x     0    next:0x 30E40 
+|R:
+|***********************NEW SORT***************************
+|L:
+|| : 1
+	 I:0x5B0E18   prev:0x     0    next:0x5B0E40 
+|R:
+|| : 2
+	 I:0x5B0E40   prev:0x5B0E18    next:0x     0 
+|***********************NEW SORT***************************
+|***********************NEW SORT***************************
+|***********************NEW SORT***************************
+|LIST DUMP
+
+|| : 2
+	 I:0x6B0E40   prev:0x     0    next:0x6B0E18 
+|| : 1
+	 I:0x6B0E18   prev:0x6B0E40    next:0x     0 
+|DUMP END
+
+|***********************NEW SORT***************************
+|LIST DUMP
+
+|| : 2
+	 I:0x6F0E38   prev:0x     0    next:0x6F0E60 
+|| : 1
+	 I:0x6F0E60   prev:0x6F0E38    next:0x     0 
+|DUMP END
+
+|***********************NEW SORT***************************
+|***********************NEW SORT***************************
+|LIST DUMP
+
+|| : 2
+	 I:0x670E18   prev:0x     0    next:0x     0 
+|DUMP END
+
+|LIST DUMP
+
+|| : 3
+	 I:0x670E68   prev:0x     0    next:0x670E40 
+|| : 1
+	 I:0x670E40   prev:0x670E68    next:0x     0 
+|DUMP END
+
+|LIST DUMP
+
+|| : 3
+	 I:0x670E68   prev:0x     0    next:0x670E18 
+|| : 2
+	 I:0x670E18   prev:0x670E68    next:0x670E40 
+|| : 1
+	 I:0x670E40   prev:0x670E18    next:0x     0 
+|DUMP END
+
+|LIST DUMP
+
+|| : 5
+	 I:0x670E90   prev:0x     0    next:0x     0 
+|DUMP END
+
+|LIST DUMP
+
+|| : 6
+	 I:0x670EE0   prev:0x     0    next:0x670EB8 
+|| : 4
+	 I:0x670EB8   prev:0x670EE0    next:0x     0 
+|DUMP END
+
+|LIST DUMP
+
+|| : 6
+	 I:0x670EE0   prev:0x     0    next:0x670E90 
+|| : 5
+	 I:0x670E90   prev:0x670EE0    next:0x670EB8 
+|| : 4
+	 I:0x670EB8   prev:0x670E90    next:0x     0 
+|DUMP END
+
+|LIST DUMP
+
+|| : 6
+	 I:0x670EE0   prev:0x     0    next:0x670E90 
+|| : 5
+	 I:0x670E90   prev:0x670EE0    next:0x670EB8 
+|| : 4
+	 I:0x670EB8   prev:0x670E90    next:0x670E68 
+|| : 3
+	 I:0x670E68   prev:0x670EB8    next:0x670E18 
+|| : 2
+	 I:0x670E18   prev:0x670E68    next:0x670E40 
+|| : 1
+	 I:0x670E40   prev:0x670E18    next:0x     0 
+|DUMP END
+
+|***********************NEW SORT***************************
+|LIST DUMP
+
+|| : футбол
+	 I:0x3D0E38   prev:0x     0    next:0x3D0E68 
+|| : пение
+	 I:0x3D0E68   prev:0x3D0E38    next:0x     0 
+|DUMP END
+
+|LIST DUMP
+
+|| : Математика
+	 I:0x3D0EA0   prev:0x     0    next:0x     0 
+|DUMP END
+
+|LIST DUMP
+
+|| : Физика
+	 I:0x3D0ED0   prev:0x     0    next:0x3D0F08 
+|| : Информатика
+	 I:0x3D0F08   prev:0x3D0ED0    next:0x     0 
+|DUMP END
+
+|LIST DUMP
+
+|| : Физика
+	 I:0x3D0ED0   prev:0x     0    next:0x3D0EA0 
+|| : Математика
+	 I:0x3D0EA0   prev:0x3D0ED0    next:0x3D0F08 
+|| : Информатика
+	 I:0x3D0F08   prev:0x3D0EA0    next:0x     0 
+|DUMP END
+
+|LIST DUMP
+
+|| : футбол
+	 I:0x3D0E38   prev:0x     0    next:0x3D0E68 
+|| : пение
+	 I:0x3D0E68   prev:0x3D0E38    next:0x3D0ED0 
+|| : Физика
+	 I:0x3D0ED0   prev:0x3D0E68    next:0x3D0EA0 
+|| : Математика
+	 I:0x3D0EA0   prev:0x3D0ED0    next:0x3D0F08 
+|| : Информатика
+	 I:0x3D0F08   prev:0x3D0EA0    next:0x     0 
+|DUMP END
+
+|***********************NEW SORT***************************
+|LIST DUMP
+
+|| : пение
+	 I:0x4D0E48   prev:0x     0    next:0x4D0E18 
+|| : футбол
+	 I:0x4D0E18   prev:0x4D0E48    next:0x     0 
+|DUMP END
+
+|LIST DUMP
+
+|| : Математика
+	 I:0x4D0E80   prev:0x     0    next:0x     0 
+|DUMP END
+
+|LIST DUMP
+
+|| : Информатика
+	 I:0x4D0EE8   prev:0x     0    next:0x4D0EB0 
+|| : Физика
+	 I:0x4D0EB0   prev:0x4D0EE8    next:0x     0 
+|DUMP END
+
+|LIST DUMP
+
+|| : Информатика
+	 I:0x4D0EE8   prev:0x     0    next:0x4D0E80 
+|| : Математика
+	 I:0x4D0E80   prev:0x4D0EE8    next:0x4D0EB0 
+|| : Физика
+	 I:0x4D0EB0   prev:0x4D0E80    next:0x     0 
+|DUMP END
+
+|LIST DUMP
+
+|| : Информатика
+	 I:0x4D0EE8   prev:0x     0    next:0x4D0E80 
+|| : Математика
+	 I:0x4D0E80   prev:0x4D0EE8    next:0x4D0EB0 
+|| : Физика
+	 I:0x4D0EB0   prev:0x4D0E80    next:0x4D0E48 
+|| : пение
+	 I:0x4D0E48   prev:0x4D0EB0    next:0x4D0E18 
+|| : футбол
+	 I:0x4D0E18   prev:0x4D0E48    next:0x     0 
+|DUMP END
+
+|***********************NEW SORT***************************
+|LIST DUMP
+
+|| : пение
+	 I:0x860E48   prev:0x     0    next:0x860E18 
+|| : футбол
+	 I:0x860E18   prev:0x860E48    next:0x     0 
+|DUMP END
+
+|LIST DUMP
+
+|| : Математика
+	 I:0x860E80   prev:0x     0    next:0x     0 
+|DUMP END
+
+|LIST DUMP
+
+|| : Информатика
+	 I:0x860EE8   prev:0x     0    next:0x860EB0 
+|| : Физика
+	 I:0x860EB0   prev:0x860EE8    next:0x     0 
+|DUMP END
+
+|LIST DUMP
+
+|| : Информатика
+	 I:0x860EE8   prev:0x     0    next:0x860E80 
+|| : Математика
+	 I:0x860E80   prev:0x860EE8    next:0x860EB0 
+|| : Физика
+	 I:0x860EB0   prev:0x860E80    next:0x     0 
+|DUMP END
+
+|LIST DUMP
+
+|| : Информатика
+	 I:0x860EE8   prev:0x     0    next:0x860E80 
+|| : Математика
+	 I:0x860E80   prev:0x860EE8    next:0x860EB0 
+|| : Физика
+	 I:0x860EB0   prev:0x860E80    next:0x860E48 
+|| : пение
+	 I:0x860E48   prev:0x860EB0    next:0x860E18 
+|| : футбол
+	 I:0x860E18   prev:0x860E48    next:0x     0 
+|DUMP END
+

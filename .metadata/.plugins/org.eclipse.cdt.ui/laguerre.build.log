@@ -1,0 +1,7 @@
+15:16:37 **** Rebuild of configuration Debug for project laguerre ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o laguerre.exe main.o 
+
+15:16:37 Build Finished (took 399ms)
+

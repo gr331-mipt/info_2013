@@ -1,0 +1,77 @@
+LIST DUMP
+
+ : Type: 0 , Val: 1 , Com: 5
+	 I:0x550500   prev:0x5504E0    next:0x     0 
+ : Type: 0 , Val: 1 , Com: 1
+	 I:0x5504E0   prev:0x5504C0    next:0x550500 
+ : Type: 0 , Val: 0 , Com: 1
+	 I:0x5504C0   prev:0x5504A0    next:0x5504E0 
+ : Type: 0 , Val: 0 , Com: 4
+	 I:0x5504A0   prev:0x550DB0    next:0x5504C0 
+ : Type: 0 , Val: 42 , Com: 1
+	 I:0x550DB0   prev:0x550D90    next:0x5504A0 
+ : Type: 1 , Val: 1 , Com: 0
+	 I:0x550D90   prev:0x     0    next:0x550DB0 
+DUMP END
+
+/**********************************CPU START******************************\
+LIST DUMP
+
+ : Type: 1 , Val: 1 , Com: 0
+	 I:0x540D90   prev:0x     0    next:0x540DB0 
+ : Type: 0 , Val: 42 , Com: 1
+	 I:0x540DB0   prev:0x540D90    next:0x5404A0 
+ : Type: 0 , Val: 0 , Com: 4
+	 I:0x5404A0   prev:0x540DB0    next:0x5404C0 
+ : Type: 0 , Val: 0 , Com: 1
+	 I:0x5404C0   prev:0x5404A0    next:0x5404E0 
+ : Type: 0 , Val: 1 , Com: 1
+	 I:0x5404E0   prev:0x5404C0    next:0x540500 
+ : Type: 0 , Val: 1 , Com: 5
+	 I:0x540500   prev:0x5404E0    next:0x     0 
+DUMP END
+
+/**********************************CPU START******************************\
+#CPU commands :
+
+LIST DUMP
+
+LIST is NULL
+DUMP END
+
+#CPU memory :
+
+/**********************************CPU START******************************\
+#CPU commands :
+
+LIST DUMP
+
+LIST is NULL
+DUMP END
+
+#CPU memory :
+
+/**********************************CPU START******************************\
+#CPU commands :
+
+LIST DUMP
+
+LIST is NULL
+DUMP END
+
+#CPU memory :
+
+DUMP Stack ok
+
+/**********************************CPU START******************************\
+#CPU commands :
+
+LIST DUMP
+
+LIST is NULL
+DUMP END
+
+#CPU memory :
+
+DUMP Stack ok
+

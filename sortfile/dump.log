@@ -1,0 +1,7165 @@
+/**************************NEW SORT**************************/
+sort_start
+
+ : 6   1  4 1  8   4
+	 I:0x2D13B8   prev:0x     0    next:0x2D0E18 
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x2D0E88    next:0x     0 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x2D13B8   prev:0x     0    next:0x2D0E18 
+ : 7  -7  7 2  2  -1
+	 I:0x2D0E18   prev:0x2D13B8    next:0x2D0E50 
+ : 4   5 10 3 18   6
+	 I:0x2D0E50   prev:0x2D0E18    next:0x2D0E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x2D0E88   prev:0x2D0E50    next:0x2D0EC0 
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x2D0E88    next:0x     0 
+DUMP END
+
+4   5 10 3 18   6
+change
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x2D13B8   prev:0x     0    next:0x2D0E18 
+ : 7  -7  7 2  2  -1
+	 I:0x2D0E18   prev:0x2D13B8    next:0x2D0E50 
+ : 4   5 10 3 18   6
+	 I:0x2D0E50   prev:0x2D0E18    next:0x2D0E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x2D0E88   prev:0x2D0E50    next:0x2D0EC0 
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x2D0E88    next:0x     0 
+DUMP END
+
+a, b:
+ : 4   5 10 3 18   6
+	 I:0x2D0E50   prev:0x2D0E18    next:0x2D0E88 
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x2D0E88    next:0x     0 
+ : 4   5 10 3 18   6
+	 I:0x2D0E50   prev:0x2D0E88    next:0x     0 
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x2D0E18    next:0x2D0E88 
+change_end
+
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x2D13B8   prev:0x     0    next:0x2D0E18 
+ : 7  -7  7 2  2  -1
+	 I:0x2D0E18   prev:0x2D13B8    next:0x2D0EC0 
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x2D0E18    next:0x2D0E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x2D0E88   prev:0x2D0EC0    next:0x2D0E50 
+ : 4   5 10 3 18   6
+	 I:0x2D0E50   prev:0x2D0E88    next:0x     0 
+DUMP END
+
+sort1
+
+sort_start
+
+ : 6   1  4 1  8   4
+	 I:0x2D13B8   prev:0x     0    next:0x2D0E18 
+ : 4 -11  2 1 -8 -12
+	 I:0x2D0E88   prev:0x2D0EC0    next:0x2D0E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x2D13B8   prev:0x     0    next:0x2D0E18 
+ : 7  -7  7 2  2  -1
+	 I:0x2D0E18   prev:0x2D13B8    next:0x2D0EC0 
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x2D0E18    next:0x2D0E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x2D0E88   prev:0x2D0EC0    next:0x2D0E50 
+ : 4   5 10 3 18   6
+	 I:0x2D0E50   prev:0x2D0E88    next:0x     0 
+DUMP END
+
+9  -7  8 2  5   1
+change
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x2D13B8   prev:0x     0    next:0x2D0E18 
+ : 7  -7  7 2  2  -1
+	 I:0x2D0E18   prev:0x2D13B8    next:0x2D0EC0 
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x2D0E18    next:0x2D0E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x2D0E88   prev:0x2D0EC0    next:0x2D0E50 
+ : 4   5 10 3 18   6
+	 I:0x2D0E50   prev:0x2D0E88    next:0x     0 
+DUMP END
+
+a, b:
+ : 6   1  4 1  8   4
+	 I:0x2D13B8   prev:0x     0    next:0x2D0E18 
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x2D0E18    next:0x2D0E88 
+ : 6   1  4 1  8   4
+	 I:0x2D13B8   prev:0x2D0E18    next:0x2D0E88 
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x     0    next:0x2D0E18 
+change_end
+
+LIST DUMP
+
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x     0    next:0x2D0E18 
+ : 7  -7  7 2  2  -1
+	 I:0x2D0E18   prev:0x2D0EC0    next:0x2D13B8 
+ : 6   1  4 1  8   4
+	 I:0x2D13B8   prev:0x2D0E18    next:0x2D0E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x2D0E88   prev:0x2D13B8    next:0x2D0E50 
+ : 4   5 10 3 18   6
+	 I:0x2D0E50   prev:0x2D0E88    next:0x     0 
+DUMP END
+
+sort1
+
+sort_start
+
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x     0    next:0x2D0E18 
+ : 7  -7  7 2  2  -1
+	 I:0x2D0E18   prev:0x2D0EC0    next:0x2D13B8 
+LIST DUMP
+
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x     0    next:0x2D0E18 
+ : 7  -7  7 2  2  -1
+	 I:0x2D0E18   prev:0x2D0EC0    next:0x2D13B8 
+ : 6   1  4 1  8   4
+	 I:0x2D13B8   prev:0x2D0E18    next:0x2D0E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x2D0E88   prev:0x2D13B8    next:0x2D0E50 
+ : 4   5 10 3 18   6
+	 I:0x2D0E50   prev:0x2D0E88    next:0x     0 
+DUMP END
+
+7  -7  7 2  2  -1
+change
+LIST DUMP
+
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x     0    next:0x2D0E18 
+ : 7  -7  7 2  2  -1
+	 I:0x2D0E18   prev:0x2D0EC0    next:0x2D13B8 
+ : 6   1  4 1  8   4
+	 I:0x2D13B8   prev:0x2D0E18    next:0x2D0E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x2D0E88   prev:0x2D13B8    next:0x2D0E50 
+ : 4   5 10 3 18   6
+	 I:0x2D0E50   prev:0x2D0E88    next:0x     0 
+DUMP END
+
+sort2
+
+cont
+sort_start
+
+ : 7  -7  7 2  2  -1
+	 I:0x2D0E18   prev:0x2D0EC0    next:0x2D13B8 
+ : 6   1  4 1  8   4
+	 I:0x2D13B8   prev:0x2D0E18    next:0x2D0E88 
+LIST DUMP
+
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x     0    next:0x2D0E18 
+ : 7  -7  7 2  2  -1
+	 I:0x2D0E18   prev:0x2D0EC0    next:0x2D13B8 
+ : 6   1  4 1  8   4
+	 I:0x2D13B8   prev:0x2D0E18    next:0x2D0E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x2D0E88   prev:0x2D13B8    next:0x2D0E50 
+ : 4   5 10 3 18   6
+	 I:0x2D0E50   prev:0x2D0E88    next:0x     0 
+DUMP END
+
+6   1  4 1  8   4
+change
+LIST DUMP
+
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x     0    next:0x2D0E18 
+ : 7  -7  7 2  2  -1
+	 I:0x2D0E18   prev:0x2D0EC0    next:0x2D13B8 
+ : 6   1  4 1  8   4
+	 I:0x2D13B8   prev:0x2D0E18    next:0x2D0E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x2D0E88   prev:0x2D13B8    next:0x2D0E50 
+ : 4   5 10 3 18   6
+	 I:0x2D0E50   prev:0x2D0E88    next:0x     0 
+DUMP END
+
+sort2
+
+cont
+sort_start
+
+ : 4 -11  2 1 -8 -12
+	 I:0x2D0E88   prev:0x2D13B8    next:0x2D0E50 
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x     0    next:0x2D0E18 
+LIST DUMP
+
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x     0    next:0x2D0E18 
+ : 7  -7  7 2  2  -1
+	 I:0x2D0E18   prev:0x2D0EC0    next:0x2D13B8 
+ : 6   1  4 1  8   4
+	 I:0x2D13B8   prev:0x2D0E18    next:0x2D0E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x2D0E88   prev:0x2D13B8    next:0x2D0E50 
+ : 4   5 10 3 18   6
+	 I:0x2D0E50   prev:0x2D0E88    next:0x     0 
+DUMP END
+
+4   5 10 3 18   6
+change
+LIST DUMP
+
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x     0    next:0x2D0E18 
+ : 7  -7  7 2  2  -1
+	 I:0x2D0E18   prev:0x2D0EC0    next:0x2D13B8 
+ : 6   1  4 1  8   4
+	 I:0x2D13B8   prev:0x2D0E18    next:0x2D0E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x2D0E88   prev:0x2D13B8    next:0x2D0E50 
+ : 4   5 10 3 18   6
+	 I:0x2D0E50   prev:0x2D0E88    next:0x     0 
+DUMP END
+
+a, b:
+ : 4   5 10 3 18   6
+	 I:0x2D0E50   prev:0x2D0E88    next:0x     0 
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x     0    next:0x2D0E18 
+ : 4   5 10 3 18   6
+	 I:0x2D0E50   prev:0x     0    next:0x2D0E18 
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x2D0E88    next:0x     0 
+change_end
+
+LIST DUMP
+
+ : 4   5 10 3 18   6
+	 I:0x2D0E50   prev:0x     0    next:0x2D0E18 
+ : 7  -7  7 2  2  -1
+	 I:0x2D0E18   prev:0x2D0E50    next:0x2D13B8 
+ : 6   1  4 1  8   4
+	 I:0x2D13B8   prev:0x2D0E18    next:0x2D0E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x2D0E88   prev:0x2D13B8    next:0x2D0EC0 
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x2D0E88    next:0x     0 
+DUMP END
+
+LIST DUMP
+
+ : 4   5 10 3 18   6
+	 I:0x2D0E50   prev:0x     0    next:0x2D0E18 
+ : 7  -7  7 2  2  -1
+	 I:0x2D0E18   prev:0x2D0E50    next:0x2D13B8 
+ : 6   1  4 1  8   4
+	 I:0x2D13B8   prev:0x2D0E18    next:0x2D0E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x2D0E88   prev:0x2D13B8    next:0x2D0EC0 
+ : 9  -7  8 2  5   1
+	 I:0x2D0EC0   prev:0x2D0E88    next:0x     0 
+DUMP END
+
+/**************************NEW SORT**************************/
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+ : 4   5 10 3 18   6
+	 I:0x880E50   prev:0x880E18    next:0x880E88 
+ : 4 -11  2 1 -8 -12
+	 I:0x880E88   prev:0x880E50    next:0x880EC0 
+ : 9  -7  8 2  5   1
+	 I:0x880EC0   prev:0x880E88    next:0x     0 
+DUMP END
+
+ : 7  -7  7 2  2  -1
+	 I:0x880E18   prev:0x8813B8    next:0x880E50 
+LIST DUMP
+
+ : 6   1  4 1  8   4
+	 I:0x8813B8   prev:0x     0    next:0x880E18 

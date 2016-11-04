@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+lineNumberRuler=true
+org.eclipse.jdt.debug.ui.hyperlinkdetector.stepIntoSelection=true
+org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDeclaredTypeDetector=true
+org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector=true
+org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkImplementationDetector=true
+org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkReturnTypeDetector=true
+org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkSuperImplementationDetector=true
+org.eclipse.jdt.internal.ui.javaeditor.NLSKeyHyperlinkDetector=true
+org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertyKeyHyperlinkDetector=true
+overviewRuler_migration=migrated_3.1

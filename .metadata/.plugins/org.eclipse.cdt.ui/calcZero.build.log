@@ -1,0 +1,7 @@
+01:16:45 **** Rebuild of configuration Debug for project calcZero ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o calcZero.exe main.o 
+
+01:16:45 Build Finished (took 608ms)
+

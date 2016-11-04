@@ -1,0 +1,6 @@
+:1
+push 42
+out
+push 0
+push 1
+jb 1

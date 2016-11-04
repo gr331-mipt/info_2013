@@ -1,0 +1,9 @@
+01:16:37 **** Rebuild of configuration Debug for project acinator ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:1: error: expected ';', identifier or '(' before 'int'
+ int main() {
+ ^
+
+01:16:37 Build Finished (took 133ms)
+

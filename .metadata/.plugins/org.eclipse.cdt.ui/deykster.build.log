@@ -1,0 +1,54 @@
+21:56:25 **** Incremental Build of configuration Debug for project deykster ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main2.o "..\\main2.c" 
+..\main2.c: In function 'list_add':
+..\main2.c:24:2: warning: implicit declaration of function 'calloc' [-Wimplicit-function-declaration]
+  List *list = calloc(1, sizeof(List));
+  ^
+..\main2.c:24:15: warning: incompatible implicit declaration of built-in function 'calloc' [enabled by default]
+  List *list = calloc(1, sizeof(List));
+               ^
+..\main2.c: In function 'ma22in':
+..\main2.c:34:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%d %d", &n, &m);
+  ^
+..\main2.c:34:2: warning: incompatible implicit declaration of built-in function 'scanf' [enabled by default]
+..\main2.c:35:22: warning: incompatible implicit declaration of built-in function 'calloc' [enabled by default]
+  Graph *G = (Graph*) calloc(n, sizeof(Graph));
+                      ^
+..\main2.c:42:3: warning: passing argument 1 of 'list_add' from incompatible pointer type [enabled by default]
+   G[x].neighbors = list_add(G[x].neighbors, &G[y], w);
+   ^
+..\main2.c:23:7: note: expected 'struct Graph *' but argument is of type 'struct List *'
+ List *list_add(Graph *item, unsigned weight, List *head) {
+       ^
+..\main2.c:42:3: warning: passing argument 2 of 'list_add' makes integer from pointer without a cast [enabled by default]
+   G[x].neighbors = list_add(G[x].neighbors, &G[y], w);
+   ^
+..\main2.c:23:7: note: expected 'unsigned int' but argument is of type 'struct Graph *'
+ List *list_add(Graph *item, unsigned weight, List *head) {
+       ^
+..\main2.c:42:3: warning: passing argument 3 of 'list_add' makes pointer from integer without a cast [enabled by default]
+   G[x].neighbors = list_add(G[x].neighbors, &G[y], w);
+   ^
+..\main2.c:23:7: note: expected 'struct List *' but argument is of type 'unsigned int'
+ List *list_add(Graph *item, unsigned weight, List *head) {
+       ^
+..\main2.c:46:2: warning: implicit declaration of function 'get_next_node' [-Wimplicit-function-declaration]
+  while(i = get_next_node(G, n) != (unsigned) -1) {
+  ^
+..\main2.c:46:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+..\main2.c:54:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf();//вывод на экран
+   ^
+..\main2.c:54:3: warning: incompatible implicit declaration of built-in function 'printf' [enabled by default]
+..\main2.c:54:3: error: too few arguments to function 'printf'
+..\main2.c:56:2: warning: implicit declaration of function 'list_destroy' [-Wimplicit-function-declaration]
+  list_destroy();
+  ^
+..\main2.c:57:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+
+21:56:25 Build Finished (took 179ms)
+

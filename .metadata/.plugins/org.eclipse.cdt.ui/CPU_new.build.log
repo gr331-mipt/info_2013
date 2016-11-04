@@ -1,0 +1,20 @@
+01:16:35 **** Rebuild of configuration Debug for project CPU_new ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o stack.o "..\\stack.c" 
+In file included from ..\stack.h:13:0,
+                 from ..\stack.c:8:
+..\stack.c: In function 'Stack_Destroy':
+..\stack.c:15:15: warning: comparison between pointer and integer [enabled by default]
+  ASSERT(stack != NULL);
+               ^
+..\stack.c:15:2: note: in expansion of macro 'ASSERT'
+  ASSERT(stack != NULL);
+  ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o CPU_new.exe stack.o main.o 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/libmingw32.a(main.o): In function `main':
+e:\p\giaw\src\pkg\mingwrt-4.0.3-1-mingw32-src\bld/../mingwrt-4.0.3-1-mingw32-src/src/libcrt/crt/main.c:91: undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+
+01:16:36 Build Finished (took 717ms)
+

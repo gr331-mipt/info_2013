@@ -1,0 +1,10 @@
+01:16:29 **** Rebuild of configuration Debug for project CPU ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o stack.o "..\\stack.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o cpu.o "..\\cpu.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o list.o "..\\list.c" 
+gcc -o CPU.exe stack.o main.o list.o cpu.o 
+
+01:16:31 Build Finished (took 2s.333ms)
+

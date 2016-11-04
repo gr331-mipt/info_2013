@@ -1,0 +1,11 @@
+09:47:57 **** Incremental Build of configuration Debug for project p1 ****
+Info: Internal Builder is used for build
+gcc -o p1.exe main.o 
+main.o: In function `main':
+E:\workspace\p1\Debug/../main.c:13: undefined reference to `t1'
+E:\workspace\p1\Debug/../main.c:13: undefined reference to `t2'
+E:\workspace\p1\Debug/../main.c:13: undefined reference to `t1'
+collect2.exe: error: ld returned 1 exit status
+
+09:47:57 Build Finished (took 178ms)
+

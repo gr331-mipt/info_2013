@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;stack_array&apos;" deleteContents="false" description="Delete resource &apos;stack_array&apos;" element1="/stack_array" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1384199532972"/>&#x0A;<refactoring comment="Rename resource &apos;СЗГ&apos; to &apos;CPU&apos;" description="Rename resource &apos;СЗГ&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/СЗГ" name="CPU" stamp="1384460018432" updateReferences="true"/>
+</session>

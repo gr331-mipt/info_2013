@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;misha_graph/myGraph&apos; to &apos;myGraph.c&apos;" description="Rename resource &apos;myGraph&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="myGraph" name="myGraph.c" stamp="1400866054677" updateReferences="true"/>
+</session>

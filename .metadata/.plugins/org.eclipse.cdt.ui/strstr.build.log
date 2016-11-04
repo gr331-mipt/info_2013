@@ -1,0 +1,14 @@
+21:37:34 **** Incremental Build of configuration Debug for project strstr ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'my_strstr':
+..\main.c:26:4: warning: return discards 'const' qualifier from pointer target type [enabled by default]
+    return &str[i];
+    ^
+gcc -o strstr.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/libmingw32.a(main.o): In function `main':
+e:\p\giaw\src\pkg\mingwrt-4.0.3-1-mingw32-src\bld/../mingwrt-4.0.3-1-mingw32-src/src/libcrt/crt/main.c:91: undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+
+21:37:34 Build Finished (took 412ms)
+

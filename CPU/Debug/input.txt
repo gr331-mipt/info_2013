@@ -1,0 +1,4 @@
+push 42
+out
+push 0
+push 1

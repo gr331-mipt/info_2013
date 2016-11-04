@@ -1,0 +1,217 @@
+/**********************************CPU START******************************\
+#CPU commands :
+
+LIST DUMP
+
+LIST is NULL
+DUMP END
+
+#CPU memory :
+
+/**********************************CPU START******************************\
+#CPU commands :
+
+LIST DUMP
+
+LIST is NULL
+DUMP END
+
+#CPU memory :
+
+#CPU reg :
+
+#CPU commands :
+
+LIST DUMP
+
+ : Type: 0 , Val: 42 , Com: 1
+	 I:0x884AE8   prev:0x     0    next:0x884B08 
+ : Type: 0 , Val: 0 , Com: 4
+	 I:0x884B08   prev:0x884AE8    next:0x884B28 
+ : Type: 0 , Val: 0 , Com: 1
+	 I:0x884B28   prev:0x884B08    next:0x884B48 
+ : Type: 0 , Val: 1 , Com: 1
+	 I:0x884B48   prev:0x884B28    next:0x     0 
+DUMP END
+
+#CPU memory :
+
+#CPU reg :
+
+#stop
+/**********************************CPU START******************************\
+#CPU commands :
+
+LIST DUMP
+
+LIST is NULL
+DUMP END
+
+#CPU memory :
+
+/**********************************CPU START******************************\
+#CPU commands :
+
+LIST DUMP
+
+LIST is NULL
+DUMP END
+
+#CPU memory :
+
+/**********************************CPU START******************************\
+#CPU commands :
+
+LIST DUMP
+
+LIST is NULL
+DUMP END
+
+#CPU memory :
+
+DUMP Stack ok
+
+DUMP complite
+
+#CPU reg :
+
+#CPU commands :
+
+LIST DUMP
+
+ : Type: 0 , Val: 42 , Com: 1
+	 I:0x514AE8   prev:0x     0    next:0x514B08 
+ : Type: 0 , Val: 0 , Com: 4
+	 I:0x514B08   prev:0x514AE8    next:0x514B28 
+ : Type: 0 , Val: 0 , Com: 1
+	 I:0x514B28   prev:0x514B08    next:0x514B48 
+ : Type: 0 , Val: 1 , Com: 1
+	 I:0x514B48   prev:0x514B28    next:0x     0 
+DUMP END
+
+#CPU memory :
+
+DUMP Stack ok
+
+DUMP complite
+
+#CPU reg :
+
+#stop
+/**********************************CPU START******************************\
+#CPU commands :
+
+LIST DUMP
+
+LIST is NULL
+DUMP END
+
+#CPU memory :
+
+DUMP Stack ok
+
+/**********************************CPU START******************************\
+#CPU commands :
+
+LIST DUMP
+
+LIST is NULL
+DUMP END
+
+#CPU memory :
+
+DUMP Stack ok
+
+/**********************************CPU START******************************\
+#CPU commands :
+
+LIST DUMP
+
+LIST is NULL
+DUMP END
+
+#CPU memory :
+
+DUMP Stack ok
+
+/**********************************CPU START******************************\
+#CPU commands :
+
+LIST DUMP
+
+LIST is NULL
+DUMP END
+
+#CPU memory :
+
+DUMP Stack ok
+
+/**********************************CPU START******************************\
+#CPU commands :
+
+LIST DUMP
+
+LIST is NULL
+DUMP END
+
+#CPU memory :
+
+DUMP Stack ok
+
+/**********************************CPU START******************************\
+#CPU commands :
+
+LIST DUMP
+
+ : Type: 0 , Val: 42 , Com: 1
+	 I:0x394AE8   prev:0x     0    next:0x394B08 
+ : Type: 0 , Val: 0 , Com: 4
+	 I:0x394B08   prev:0x394AE8    next:0x394B28 
+ : Type: 0 , Val: 0 , Com: 1
+	 I:0x394B28   prev:0x394B08    next:0x394B48 
+ : Type: 0 , Val: 1 , Com: 1
+	 I:0x394B48   prev:0x394B28    next:0x     0 
+DUMP END
+
+#CPU memory :
+
+DUMP Stack ok
+
+/**********************************CPU START******************************\
+#CPU commands :
+
+LIST DUMP
+
+ : Type: 0 , Val: 42 , Com: 1
+	 I:0x3F4AE8   prev:0x     0    next:0x3F4B08 
+ : Type: 0 , Val: 0 , Com: 4
+	 I:0x3F4B08   prev:0x3F4AE8    next:0x3F4B28 
+ : Type: 0 , Val: 0 , Com: 1
+	 I:0x3F4B28   prev:0x3F4B08    next:0x3F4B48 
+ : Type: 0 , Val: 1 , Com: 1
+	 I:0x3F4B48   prev:0x3F4B28    next:0x     0 
+DUMP END
+
+#CPU memory :
+
+DUMP Stack ok
+
+/**********************************CPU START******************************\
+#CPU commands :
+
+LIST DUMP
+
+ : Type: 0 , Val: 42 , Com: 1
+	 I:0x384AE8   prev:0x     0    next:0x384B08 
+ : Type: 0 , Val: 0 , Com: 4
+	 I:0x384B08   prev:0x384AE8    next:0x384B28 
+ : Type: 0 , Val: 0 , Com: 1
+	 I:0x384B28   prev:0x384B08    next:0x384B48 
+ : Type: 0 , Val: 1 , Com: 1
+	 I:0x384B48   prev:0x384B28    next:0x     0 
+DUMP END
+
+#CPU memory :
+
+DUMP Stack ok
+

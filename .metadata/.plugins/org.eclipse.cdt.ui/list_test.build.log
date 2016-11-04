@@ -1,0 +1,39 @@
+22:38:03 **** Incremental Build of configuration Debug for project list_test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:46:2: error: unknown type name 'List'
+  List *head = NULL;
+  ^
+..\main.c:46:15: error: 'NULL' undeclared (first use in this function)
+  List *head = NULL;
+               ^
+..\main.c:46:15: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:47:2: error: unknown type name 'List'
+  List *tail = list_append(head, 5);
+  ^
+..\main.c:47:2: warning: implicit declaration of function 'list_append' [-Wimplicit-function-declaration]
+..\main.c:47:15: warning: initialization makes pointer from integer without a cast [enabled by default]
+  List *tail = list_append(head, 5);
+               ^
+..\main.c:48:7: warning: assignment makes pointer from integer without a cast [enabled by default]
+  head = list_append(head, 6);
+       ^
+..\main.c:49:7: warning: assignment makes pointer from integer without a cast [enabled by default]
+  head = list_append(head, 7);
+       ^
+..\main.c:50:2: warning: implicit declaration of function 'list_print' [-Wimplicit-function-declaration]
+  list_print(head);
+  ^
+..\main.c:51:6: error: request for member 'next' in something not a structure or union
+  tail->next = head;
+      ^
+..\main.c:53:6: error: request for member 'next' in something not a structure or union
+  tail->next = NULL;
+      ^
+..\main.c:54:2: warning: implicit declaration of function 'list_destroy' [-Wimplicit-function-declaration]
+  list_destroy(head);
+  ^
+
+22:38:03 Build Finished (took 130ms)
+

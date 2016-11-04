@@ -1,0 +1,7 @@
+16:47:51 **** Incremental Build of configuration Debug for project knapsack ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o knapsack.exe main.o 
+
+16:47:51 Build Finished (took 461ms)
+

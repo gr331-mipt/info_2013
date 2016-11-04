@@ -1,0 +1,54 @@
+09:47:23 **** Incremental Build of configuration Debug for project jenya ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'num_word':
+..\main.c:14:2: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  int len = strlen(s);
+  ^
+..\main.c:14:12: warning: incompatible implicit declaration of built-in function 'strlen' [enabled by default]
+  int len = strlen(s);
+            ^
+..\main.c:11:27: warning: comparison between pointer and integer [enabled by default]
+ #define IS_LATIN(a) (('A' <= (a) && (a) <= 'Z') || ('a' <= (a) && (a) <= 'z'))
+                           ^
+..\main.c:18:21: note: in expansion of macro 'IS_LATIN'
+   for(; i < len && (IS_LATIN(s) || IS_DIGIT(s)); i++);
+                     ^
+..\main.c:11:41: warning: comparison between pointer and integer [enabled by default]
+ #define IS_LATIN(a) (('A' <= (a) && (a) <= 'Z') || ('a' <= (a) && (a) <= 'z'))
+                                         ^
+..\main.c:18:21: note: in expansion of macro 'IS_LATIN'
+   for(; i < len && (IS_LATIN(s) || IS_DIGIT(s)); i++);
+                     ^
+..\main.c:11:57: warning: comparison between pointer and integer [enabled by default]
+ #define IS_LATIN(a) (('A' <= (a) && (a) <= 'Z') || ('a' <= (a) && (a) <= 'z'))
+                                                         ^
+..\main.c:18:21: note: in expansion of macro 'IS_LATIN'
+   for(; i < len && (IS_LATIN(s) || IS_DIGIT(s)); i++);
+                     ^
+..\main.c:11:71: warning: comparison between pointer and integer [enabled by default]
+ #define IS_LATIN(a) (('A' <= (a) && (a) <= 'Z') || ('a' <= (a) && (a) <= 'z'))
+                                                                       ^
+..\main.c:18:21: note: in expansion of macro 'IS_LATIN'
+   for(; i < len && (IS_LATIN(s) || IS_DIGIT(s)); i++);
+                     ^
+..\main.c:10:26: warning: comparison between pointer and integer [enabled by default]
+ #define IS_DIGIT(a) ('0' <= (a) && (a) <= '9')
+                          ^
+..\main.c:18:36: note: in expansion of macro 'IS_DIGIT'
+   for(; i < len && (IS_LATIN(s) || IS_DIGIT(s)); i++);
+                                    ^
+..\main.c:10:40: warning: comparison between pointer and integer [enabled by default]
+ #define IS_DIGIT(a) ('0' <= (a) && (a) <= '9')
+                                        ^
+..\main.c:18:36: note: in expansion of macro 'IS_DIGIT'
+   for(; i < len && (IS_LATIN(s) || IS_DIGIT(s)); i++);
+                                    ^
+..\main.c: In function 'main':
+..\main.c:26:11: warning: unused variable 'numtable' [-Wunused-variable]
+  unsigned numtable[10];
+           ^
+gcc -o jenya.exe main.o 
+
+09:47:24 Build Finished (took 463ms)
+

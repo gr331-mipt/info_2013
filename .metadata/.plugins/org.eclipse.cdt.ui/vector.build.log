@@ -1,0 +1,7 @@
+20:30:30 **** Rebuild of configuration Debug for project vector ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o vector.exe main.o 
+
+20:30:30 Build Finished (took 424ms)
+
